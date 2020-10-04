@@ -1,0 +1,188 @@
+POST http://list-me.test/api/products/create
+Content-Type: application/json
+
+{
+    "name":"Doritos",
+    "flavour":"Potato Ranch",
+    "weight":"12",
+    "unit":"oz",
+    "price":500,
+    "minimum_order_quantity":12,
+    "in_stock":0,
+    "is_new":1,
+    "offer_price":1200,
+    "offer_label":"Christmas",
+    "offer_valid_till":"2020-12-20",
+    "category_id":2
+}
+
+<> 2020-09-29T043235.200.json
+
+###
+
+POST http://list-me.test/api/products/create
+Content-Type: application/json
+
+{
+    "name":"Doritos",
+    "flavour":"Potato Ranch",
+    "weight":"12",
+    "unit":"oz",
+    "price":500,
+    "minimum_order_quantity":12,
+    "in_stock":0,
+    "is_new":1,
+    "offer_price":1200,
+    "offer_label":"Christmas",
+    "offer_valid_till":"2020-12-20",
+    "category_id":2
+}
+
+<> 2020-09-29T043106.201.json
+
+###
+
+POST http://localhost:8000/api/products/create
+Content-Type: application/json
+
+{
+    "name":"Doritos",
+    "flavour":"Potato Ranch",
+    "weight":"12",
+    "unit":"oz",
+    "price":500,
+    "minimum_order_quantity":12,
+    "in_stock":0,
+    "is_new":1,
+    "offer_price":1200,
+    "offer_label":"Christmas",
+    "offer_valid_till":"2020-12-20",
+    "category_id":2
+}
+
+###
+
+GET http://localhost:8000/api/products
+
+<> 2020-09-26T075558.200.json
+
+###
+
+GET http://localhost:8000/api/products
+
+<> 2020-09-26T074928.200.json
+
+###
+
+GET http://localhost:8000/api/products
+
+<> 2020-09-26T074420.200.json
+
+###
+
+GET http://localhost:8000/api/products
+
+<> 2020-09-26T074327.404.html
+
+###
+
+POST http://localhost:8000/api/products/create
+Content-Type: application/json
+
+{
+    "name":"Doritos",
+    "flavour":"Potato Ranch",
+    "weight":"12",
+    "unit":"oz",
+    "price":500,
+    "minimum_order_quantity":12,
+    "in_stock":0,
+    "is_new":1,
+    "offer_price":1200,
+    "offer_label":"Christmas",
+    "offer_valid_till":"2020-12-20",
+    "category_id":2
+}
+
+<> 2020-09-26T074246.200.html
+
+###
+
+POST http://localhost:8000/api/products/create
+Content-Type: application/json
+
+{
+    "id": 999,
+    "value": "content"
+}
+
+<> 2020-09-26T071719.200.html
+
+###
+
+POST http://localhost:8000/api/products/create
+Content-Type: application/json
+
+{
+    "id": 999,
+    "value": "content"
+}
+
+<> 2020-09-26T071653.200.html
+
+###
+
+POST http://localhost:8000/api/products/create
+Content-Type: application/json
+
+{
+    "id": 999,
+    "value": "content"
+}
+
+<> 2020-09-26T071626.200.html
+
+###
+
+POST http://localhost:8000/api/products/create
+Content-Type: application/json
+
+{
+    "id": 999,
+    "value": "content"
+}
+
+<> 2020-09-26T071516.500.html
+
+###
+
+POST http://locahost:8000/api/products/create
+Content-Type: application/json
+
+{
+    "id": 999,
+    "value": "content"
+}
+
+###
+
+POST http://locahost:8000/api/products/create
+Content-Type: application/json
+
+{
+    "id": 999,
+    "value": "content"
+}
+
+###
+
+POST http://locahost:8000/api/products/create
+Content-Type: application/json
+
+{
+    "id": 999,
+    "value": "content"
+}
+
+###
+

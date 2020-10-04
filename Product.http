@@ -1,0 +1,21 @@
+### Send POST request with json body
+GET http://localhost:8000/api/products
+
+### Send POST request with json body
+POST http://list-me.test/api/products/create
+Content-Type: application/json
+
+{
+    "name":"Doritos",
+    "flavour":"Potato Ranch",
+    "weight":"12",
+    "unit":"oz",
+    "price":500,
+    "minimum_order_quantity":12,
+    "in_stock":0,
+    "is_new":1,
+    "offer_price":1200,
+    "offer_label":"Christmas",
+    "offer_valid_till":"2020-12-20",
+    "category_id":2
+}

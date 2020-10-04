@@ -1,0 +1,22 @@
+About Products
+	- System Admin creates products
+	- Supplier chooses products he sells
+	- Supplier can create offer for products
+	- Supplier as well can create products, but he system admin needs to be notified by the system
+		whenver a product is created to ensure product integrity.
+	- System admin adds prices for the products however, a supplier while choosing products
+		can also amend the prices according to his will. 
+
+
+About Supplier
+	- Supplier nominates products he wishes to supply.
+	- Supplier can add prices accordingly. 
+	- Supplier can be discovered via his preferred locations.
+	- Supplier can create offers[for products].
+
+Product Search Alogarithm:
+	
+	- If send to supplier is selected, search from the products of the particular supplier.
+	- Else search product from system.
+
+
