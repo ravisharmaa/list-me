@@ -2,12 +2,13 @@
 
 namespace App\Models;
 
+use App\Models\Cart;
+use App\Models\Role;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Passport\HasApiTokens;
-use App\Models\Role;
 
 class User extends Authenticatable
 {
@@ -63,5 +64,10 @@ class User extends Authenticatable
     {
         $query->addSelect('roleName', Role::select('name'))
         ->whereColumn('id', 'users.role_id')->with('role');
+    }
+
+    public function cart()
+    {
+        return $this->hasMany(Cart::class);
     }
 }

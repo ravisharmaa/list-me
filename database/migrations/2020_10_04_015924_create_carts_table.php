@@ -38,6 +38,7 @@ class CreateCartsTable extends Migration
                    ->onUpdateCascade();
 
 
+            $table->timestamp('completed_at')->nullable();
 
             $table->timestamps();
         });

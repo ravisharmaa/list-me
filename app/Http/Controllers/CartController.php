@@ -14,7 +14,11 @@ class CartController extends Controller
      */
     public function index(User $user)
     {
-        echo "hello";
+        
+        $cart = $user->cart()->get();
+        
+        return $cart;
+        //return response()
     }
 
     /**
