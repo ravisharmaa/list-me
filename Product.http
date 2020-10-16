@@ -19,3 +19,32 @@ Content-Type: application/json
     "offer_valid_till":"2020-12-20",
     "category_id":2
 }
+
+### Send POST request with json body
+POST http://list-me.test/api/signup
+Content-Type: application/json
+
+{
+    "telephone":"22222222222",
+    "street": "Bla bla bla",
+    "state": "Kathmanu",
+    "email": "bastola.ravi@testy.com",
+    "name": "Ravi Bastola",
+    "password": "ravi123",
+    "role": "Business Owner",
+    "password_confirmation": "ravi123",
+    "businessName": "Business One",
+    "city": "Bla bla bla ",
+    "zip": "44600"
+}
+
+### Send POST request with json body
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+

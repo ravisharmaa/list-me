@@ -27,10 +27,12 @@ class CreateStoresTable extends Migration
                 ->cascadeOnDelete();
 
             $table->string('name');
-            $table->string('address');
+            $table->string('street')->nullable();
+            $table->string('city')->nullable();
+            $table->string('state');
+            $table->string('zip_code');
             $table->float('latitude');
             $table->float('longitude');
-            $table->string('zip_code');
             $table->string('phone_number')->nullable();
             $table->timestamps();
         });

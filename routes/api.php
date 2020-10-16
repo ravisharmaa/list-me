@@ -1,8 +1,12 @@
 <?php
 
-use App\Http\Controllers\ProductsController;
-use App\Http\Controllers\CategoryProductsController;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CartController;
 use App\Http\Controllers\CategoriesController;
+use App\Http\Controllers\CategoryProductsController;
+use App\Http\Controllers\ProductsController;
+use App\Http\Controllers\StoresController;
+use App\Http\Controllers\SuppliersController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -17,9 +21,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+
+Route::post('signup', [AuthController::class, 'signup']);
+Route::post('login', [AuthController::class, 'login']);
+
 
 // GET http://list-me.test/api/categories
 
@@ -62,6 +67,17 @@ Route::post('products/create', [ProductsController::class, 'store']);
 Route::delete('products/{product}/delete', [ProductsController::class, 'destroy']);
 
 Route::put('products/{product}/update', [ProductsController::class, 'update']);
+
+// GET http://list-me.test/api/suppliers
+Route::get('suppliers',[SuppliersController::class, 'index']);
+
+// GET http://list-me.test/api/stores
+Route::get('stores',[StoresController::class, 'index']);
+
+//GET http://list-me.test/api/cart/1
+Route::get('cart/{user}', [CartController::class, 'index']);
+
+
 
 
 

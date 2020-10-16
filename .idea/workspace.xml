@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2a82e0e-6b5d-43b8-bc64-d65aa25693b1" name="Default Changelist" comment="" />
+    <list default="true" id="f2a82e0e-6b5d-43b8-bc64-d65aa25693b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-09-26T071516.500.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-09-26T071626.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-09-26T071653.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-09-26T071719.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-09-26T074246.200.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-09-26T074327.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-09-26T074420.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-09-26T074928.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-09-26T075558.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-09-29T043106.201.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-09-29T043235.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/list-me.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/list-me.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Product.http" beforeDir="false" afterPath="$PROJECT_DIR$/Product.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Store.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Store.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_25_030058_create_stores_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_25_030058_create_stores_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/notes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +57,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -120,9 +170,30 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
       <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/seld/phar-utils" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-ide-helper" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/seld/jsonlint" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/justinrainbow/json-schema" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/symfony/psr-http-message-bridge" />
+      <path value="$PROJECT_DIR$/vendor/laravel/passport" />
+      <path value="$PROJECT_DIR$/vendor/php-http/message-factory" />
+      <path value="$PROJECT_DIR$/vendor/nyholm/psr7" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/league/oauth2-server" />
+      <path value="$PROJECT_DIR$/vendor/league/event" />
+      <path value="$PROJECT_DIR$/vendor/defuse/php-encryption" />
     </include_path>
   </component>
   <component name="ProjectId" id="1hz8O7pcJcG2Hr2OgCOkA3K01Li" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -137,6 +208,164 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://list-me.test/api/login" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;email&quot;: &quot;bastola.ravi@testy.com&quot;,&#10;    &quot;password&quot;: &quot;ravi123&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://list-me.test/api/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;telephone&quot;:&quot;22222222222&quot;,&#10;    &quot;street&quot;: &quot;Bla bla bla&quot;,&#10;    &quot;state&quot;: &quot;Kathmanu&quot;,&#10;    &quot;email&quot;: &quot;bastola.ravi@testy.com&quot;,&#10;    &quot;name&quot;: &quot;Ravi Bastola&quot;,&#10;    &quot;password&quot;: &quot;ravi123&quot;,&#10;    &quot;role&quot;: &quot;Business Owner&quot;,&#10;    &quot;password_confirmation&quot;: &quot;ravi123&quot;,&#10;    &quot;businessName&quot;: &quot;Business One&quot;,&#10;    &quot;city&quot;: &quot;Bla bla bla &quot;,&#10;    &quot;zip&quot;: &quot;44600&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://list-me.test/api/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;telephone&quot;:&quot;22222222222&quot;,&#10;    &quot;street&quot;: &quot;Bla bla bla&quot;,&#10;    &quot;state&quot;: &quot;Kathmanu&quot;,&#10;    &quot;email&quot;: &quot;bastola.ravi@test.com&quot;,&#10;    &quot;name&quot;: &quot;Ravi Bastola&quot;,&#10;    &quot;password&quot;: &quot;ravi123&quot;,&#10;    &quot;role&quot;: &quot;Business Owner&quot;,&#10;    &quot;password_confirmation&quot;: &quot;ravi123&quot;,&#10;    &quot;businessName&quot;: &quot;Business One&quot;,&#10;    &quot;city&quot;: &quot;Bla bla bla &quot;,&#10;    &quot;zip&quot;: &quot;44600&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://list-me.test/api/login" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;email&quot;: &quot;bastola.ravi@test.com&quot;,&#10;    &quot;password&quot;: &quot;ravi123&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://list-me.test/api/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;telephone&quot;:&quot;22222222222&quot;,&#10;    &quot;street&quot;: &quot;Bla bla bla&quot;,&#10;    &quot;state&quot;: &quot;Kathmanu&quot;,&#10;    &quot;name&quot;: &quot;Ravi Bastola&quot;,&#10;    &quot;password&quot;: &quot;ravi123&quot;,&#10;    &quot;role&quot;: &quot;Business Owner&quot;,&#10;    &quot;password_confirmation&quot;: &quot;ravi123&quot;,&#10;    &quot;businessName&quot;: &quot;Business One&quot;,&#10;    &quot;city&quot;: &quot;Bla bla bla &quot;,&#10;    &quot;zip&quot;: &quot;44600&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://list-me.test/api/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;name&quot;:&quot;Doritos&quot;,&#10;    &quot;email&quot;: &quot;doritos@gmail.com&quot;,&#10;    &quot;password&quot;: &quot;password123&quot;,&#10;    &quot;role_id&quot;: 1,&#10;    &quot;password_confirmation&quot;: &quot;password123&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://list-me.test/api/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;name&quot;:&quot;Doritos&quot;,&#10;    &quot;email&quot;: &quot;doritos@gmail.com&quot;,&#10;    &quot;password&quot;: &quot;password123&quot;,&#10;    &quot;password_confirmation&quot;: &quot;password123&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://list-me.test/api/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;name&quot;:&quot;Doritos&quot;,&#10;    &quot;email&quot;: &quot;doritos@gmail.com&quot;,&#10;    &quot;password&quot;: &quot;password123&quot;,&#10;    &quot;password_confirmation&quot;: &quot;passworda123&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://list-me.test/api/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://list-me.test/api/auth/signup" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://list-me.test/api/products/create" />
@@ -202,12 +431,20 @@
     <configuration name="Product#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/Product.http" index="2" runType="Run single request">
       <method v="2" />
     </configuration>
+    <configuration name="Product#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/Product.http" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="Product#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/Product.http" index="4" runType="Run single request">
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.Product#4" />
+        <item itemvalue="HTTP Request.Product#3" />
         <item itemvalue="HTTP Request.Product#2" />
         <item itemvalue="HTTP Request.Product#1" />
       </list>
@@ -228,28 +465,58 @@
       <workItem from="1601083048182" duration="1608000" />
       <workItem from="1601084917916" duration="1162000" />
       <workItem from="1601376156008" duration="801000" />
+      <workItem from="1601818301883" duration="338000" />
+      <workItem from="1601866236450" duration="583000" />
+      <workItem from="1601947886900" duration="2948000" />
+      <workItem from="1601951801299" duration="1398000" />
+      <workItem from="1601967317334" duration="847000" />
+      <workItem from="1602048055134" duration="1007000" />
+      <workItem from="1602117995938" duration="1877000" />
+      <workItem from="1602127789536" duration="1633000" />
+      <workItem from="1602130815678" duration="1000" />
+      <workItem from="1602202620009" duration="1729000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="672" height="754" key="GridCell.Tab.0.bottom" timestamp="1601377199199">
+    <state x="514" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1602203016974">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="672" height="754" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1601377199199" />
-    <state width="672" height="754" key="GridCell.Tab.0.center" timestamp="1601377199197">
+    <state x="514" y="128" key="#com.intellij.ide.util.MemberChooser/0.23.1440.832@0.23.1440.832" timestamp="1602203016974" />
+    <state width="664" height="754" key="GridCell.Tab.0.bottom" timestamp="1602203455547">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="672" height="754" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1601377199197" />
-    <state width="672" height="754" key="GridCell.Tab.0.left" timestamp="1601377199197">
+    <state width="664" height="754" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1602203455547" />
+    <state width="664" height="754" key="GridCell.Tab.0.center" timestamp="1602203455546">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="672" height="754" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1601377199197" />
-    <state width="672" height="754" key="GridCell.Tab.0.right" timestamp="1601377199198">
+    <state width="664" height="754" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1602203455546" />
+    <state width="664" height="754" key="GridCell.Tab.0.left" timestamp="1602203455545">
       <screen x="0" y="23" width="1440" height="832" />
     </state>
-    <state width="672" height="754" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1601377199198" />
+    <state width="664" height="754" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1602203455545" />
+    <state width="664" height="754" key="GridCell.Tab.0.right" timestamp="1602203455547">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state width="664" height="754" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1602203455547" />
+    <state x="385" y="179" width="670" height="676" key="search.everywhere.popup" timestamp="1602204139073">
+      <screen x="0" y="23" width="1440" height="832" />
+    </state>
+    <state x="385" y="179" width="670" height="676" key="search.everywhere.popup/0.23.1440.832@0.23.1440.832" timestamp="1602204139073" />
   </component>
 </project>

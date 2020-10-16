@@ -1,188 +1,735 @@
-POST http://list-me.test/api/products/create
+POST http://list-me.test/api/login
 Content-Type: application/json
 
 {
-    "name":"Doritos",
-    "flavour":"Potato Ranch",
-    "weight":"12",
-    "unit":"oz",
-    "price":500,
-    "minimum_order_quantity":12,
-    "in_stock":0,
-    "is_new":1,
-    "offer_price":1200,
-    "offer_label":"Christmas",
-    "offer_valid_till":"2020-12-20",
-    "category_id":2
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
 }
 
-<> 2020-09-29T043235.200.json
+<> 2020-10-09T061355.200.html
 
 ###
 
-POST http://list-me.test/api/products/create
+POST http://list-me.test/api/login
 Content-Type: application/json
 
 {
-    "name":"Doritos",
-    "flavour":"Potato Ranch",
-    "weight":"12",
-    "unit":"oz",
-    "price":500,
-    "minimum_order_quantity":12,
-    "in_stock":0,
-    "is_new":1,
-    "offer_price":1200,
-    "offer_label":"Christmas",
-    "offer_valid_till":"2020-12-20",
-    "category_id":2
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
 }
 
-<> 2020-09-29T043106.201.json
+<> 2020-10-09T060632.500.html
 
 ###
 
-POST http://localhost:8000/api/products/create
+POST http://list-me.test/api/login
 Content-Type: application/json
 
 {
-    "name":"Doritos",
-    "flavour":"Potato Ranch",
-    "weight":"12",
-    "unit":"oz",
-    "price":500,
-    "minimum_order_quantity":12,
-    "in_stock":0,
-    "is_new":1,
-    "offer_price":1200,
-    "offer_label":"Christmas",
-    "offer_valid_till":"2020-12-20",
-    "category_id":2
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
 }
 
-###
-
-GET http://localhost:8000/api/products
-
-<> 2020-09-26T075558.200.json
+<> 2020-10-09T060300.404.html
 
 ###
 
-GET http://localhost:8000/api/products
-
-<> 2020-09-26T074928.200.json
-
-###
-
-GET http://localhost:8000/api/products
-
-<> 2020-09-26T074420.200.json
-
-###
-
-GET http://localhost:8000/api/products
-
-<> 2020-09-26T074327.404.html
-
-###
-
-POST http://localhost:8000/api/products/create
+POST http://list-me.test/api/login
 Content-Type: application/json
 
 {
-    "name":"Doritos",
-    "flavour":"Potato Ranch",
-    "weight":"12",
-    "unit":"oz",
-    "price":500,
-    "minimum_order_quantity":12,
-    "in_stock":0,
-    "is_new":1,
-    "offer_price":1200,
-    "offer_label":"Christmas",
-    "offer_valid_till":"2020-12-20",
-    "category_id":2
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
 }
 
-<> 2020-09-26T074246.200.html
+<> 2020-10-08T095026.500.html
 
 ###
 
-POST http://localhost:8000/api/products/create
+POST http://list-me.test/api/login
 Content-Type: application/json
 
 {
-    "id": 999,
-    "value": "content"
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
 }
 
-<> 2020-09-26T071719.200.html
+<> 2020-10-08T095006.500.html
 
 ###
 
-POST http://localhost:8000/api/products/create
+POST http://list-me.test/api/login
 Content-Type: application/json
 
 {
-    "id": 999,
-    "value": "content"
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
 }
 
-<> 2020-09-26T071653.200.html
+<> 2020-10-08T094857.500.html
 
 ###
 
-POST http://localhost:8000/api/products/create
+POST http://list-me.test/api/login
 Content-Type: application/json
 
 {
-    "id": 999,
-    "value": "content"
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
 }
 
-<> 2020-09-26T071626.200.html
+<> 2020-10-08T093702.200.json
 
 ###
 
-POST http://localhost:8000/api/products/create
+POST http://list-me.test/api/login
 Content-Type: application/json
 
 {
-    "id": 999,
-    "value": "content"
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
 }
 
-<> 2020-09-26T071516.500.html
+<> 2020-10-08T093627.200.json
 
 ###
 
-POST http://locahost:8000/api/products/create
+POST http://list-me.test/api/login
 Content-Type: application/json
 
 {
-    "id": 999,
-    "value": "content"
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
 }
+
+<> 2020-10-08T093602.200.json
 
 ###
 
-POST http://locahost:8000/api/products/create
+POST http://list-me.test/api/login
 Content-Type: application/json
 
 {
-    "id": 999,
-    "value": "content"
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
 }
+
+<> 2020-10-08T093552.500.html
 
 ###
 
-POST http://locahost:8000/api/products/create
+POST http://list-me.test/api/login
 Content-Type: application/json
 
 {
-    "id": 999,
-    "value": "content"
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
 }
+
+<> 2020-10-08T093531.200.json
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T093514.500.html
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T093501.200.json
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T093448.200.json
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T093306.200.json
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T093157.200.json
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T093024.200.json
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T093008.200.json
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T092856.200.json
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T092747.500.html
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T092707.500.html
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T092645.500.html
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T092622.500.html
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T092558.200.json
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T092534.500.html
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T092411.500.html
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T092330.500.html
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T092257.500.html
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T092213.500.html
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T092140.500.html
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T091527.200.json
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T063947.200.json
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T063922.500.html
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@testy.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T063629.500.html
+
+###
+
+POST http://list-me.test/api/signup
+Content-Type: application/json
+
+{
+    "telephone":"22222222222",
+    "street": "Bla bla bla",
+    "state": "Kathmanu",
+    "email": "bastola.ravi@testy.com",
+    "name": "Ravi Bastola",
+    "password": "ravi123",
+    "role": "Business Owner",
+    "password_confirmation": "ravi123",
+    "businessName": "Business One",
+    "city": "Bla bla bla ",
+    "zip": "44600"
+}
+
+<> 2020-10-08T063621.200.json
+
+###
+
+POST http://list-me.test/api/signup
+Content-Type: application/json
+
+{
+    "telephone":"22222222222",
+    "street": "Bla bla bla",
+    "state": "Kathmanu",
+    "email": "bastola.ravi@test.com",
+    "name": "Ravi Bastola",
+    "password": "ravi123",
+    "role": "Business Owner",
+    "password_confirmation": "ravi123",
+    "businessName": "Business One",
+    "city": "Bla bla bla ",
+    "zip": "44600"
+}
+
+<> 2020-10-08T063326.500.html
+
+###
+
+POST http://list-me.test/api/login
+Content-Type: application/json
+
+{
+    "email": "bastola.ravi@test.com",
+    "password": "ravi123"
+}
+
+<> 2020-10-08T063301.200.json
+
+###
+
+POST http://list-me.test/api/signup
+Content-Type: application/json
+
+{
+    "telephone":"22222222222",
+    "street": "Bla bla bla",
+    "state": "Kathmanu",
+    "email": "bastola.ravi@test.com",
+    "name": "Ravi Bastola",
+    "password": "ravi123",
+    "role": "Business Owner",
+    "password_confirmation": "ravi123",
+    "businessName": "Business One",
+    "city": "Bla bla bla ",
+    "zip": "44600"
+}
+
+<> 2020-10-07T115810.500.html
+
+###
+
+POST http://list-me.test/api/signup
+Content-Type: application/json
+
+{
+    "telephone":"22222222222",
+    "street": "Bla bla bla",
+    "state": "Kathmanu",
+    "email": "bastola.ravi@test.com",
+    "name": "Ravi Bastola",
+    "password": "ravi123",
+    "role": "Business Owner",
+    "password_confirmation": "ravi123",
+    "businessName": "Business One",
+    "city": "Bla bla bla ",
+    "zip": "44600"
+}
+
+<> 2020-10-07T115748.500.html
+
+###
+
+POST http://list-me.test/api/signup
+Content-Type: application/json
+
+{
+    "telephone":"22222222222",
+    "street": "Bla bla bla",
+    "state": "Kathmanu",
+    "email": "bastola.ravi@test.com",
+    "name": "Ravi Bastola",
+    "password": "ravi123",
+    "role": "Business Owner",
+    "password_confirmation": "ravi123",
+    "businessName": "Business One",
+    "city": "Bla bla bla ",
+    "zip": "44600"
+}
+
+<> 2020-10-07T115724.200.json
+
+###
+
+POST http://list-me.test/api/signup
+Content-Type: application/json
+
+{
+    "telephone":"22222222222",
+    "street": "Bla bla bla",
+    "state": "Kathmanu",
+    "email": "bastola.ravi@test.com",
+    "name": "Ravi Bastola",
+    "password": "ravi123",
+    "role": "Business Owner",
+    "password_confirmation": "ravi123",
+    "businessName": "Business One",
+    "city": "Bla bla bla ",
+    "zip": "44600"
+}
+
+<> 2020-10-07T112035.200.json
+
+###
+
+POST http://list-me.test/api/signup
+Content-Type: application/json
+
+{
+    "telephone":"22222222222",
+    "street": "Bla bla bla",
+    "state": "Kathmanu",
+    "email": "bastola.ravi@test.com",
+    "name": "Ravi Bastola",
+    "password": "ravi123",
+    "role": "Business Owner",
+    "password_confirmation": "ravi123",
+    "businessName": "Business One",
+    "city": "Bla bla bla ",
+    "zip": "44600"
+}
+
+<> 2020-10-07T111858.200.html
+
+###
+
+POST http://list-me.test/api/signup
+Content-Type: application/json
+
+{
+    "telephone":"22222222222",
+    "street": "Bla bla bla",
+    "state": "Kathmanu",
+    "email": "bastola.ravi@test.com",
+    "name": "Ravi Bastola",
+    "password": "ravi123",
+    "role": "Business Owner",
+    "password_confirmation": "ravi123",
+    "businessName": "Business One",
+    "city": "Bla bla bla ",
+    "zip": "44600"
+}
+
+<> 2020-10-07T111842.200.json
+
+###
+
+POST http://list-me.test/api/signup
+Content-Type: application/json
+
+{
+    "telephone":"22222222222",
+    "street": "Bla bla bla",
+    "state": "Kathmanu",
+    "email": "bastola.ravi@test.com",
+    "name": "Ravi Bastola",
+    "password": "ravi123",
+    "role": "Business Owner",
+    "password_confirmation": "ravi123",
+    "businessName": "Business One",
+    "city": "Bla bla bla ",
+    "zip": "44600"
+}
+
+<> 2020-10-07T111811.500.html
+
+###
+
+POST http://list-me.test/api/signup
+Content-Type: application/json
+
+{
+    "telephone":"22222222222",
+    "street": "Bla bla bla",
+    "state": "Kathmanu",
+    "email": "bastola.ravi@test.com",
+    "name": "Ravi Bastola",
+    "password": "ravi123",
+    "role": "Business Owner",
+    "password_confirmation": "ravi123",
+    "businessName": "Business One",
+    "city": "Bla bla bla ",
+    "zip": "44600"
+}
+
+<> 2020-10-07T111718.200.json
+
+###
+
+POST http://list-me.test/api/signup
+Content-Type: application/json
+
+{
+    "telephone":"22222222222",
+    "street": "Bla bla bla",
+    "state": "Kathmanu",
+    "email": "bastola.ravi@test.com",
+    "name": "Ravi Bastola",
+    "password": "ravi123",
+    "role": "Business Owner",
+    "password_confirmation": "ravi123",
+    "businessName": "Business One",
+    "city": "Bla bla bla ",
+    "zip": "44600"
+}
+
+<> 2020-10-07T111701.500.html
+
+###
+
+POST http://list-me.test/api/signup
+Content-Type: application/json
+
+{
+    "telephone":"22222222222",
+    "street": "Bla bla bla",
+    "state": "Kathmanu",
+    "email": "bastola.ravi@test.com",
+    "name": "Ravi Bastola",
+    "password": "ravi123",
+    "role": "Business Owner",
+    "password_confirmation": "ravi123",
+    "businessName": "Business One",
+    "city": "Bla bla bla ",
+    "zip": "44600"
+}
+
+<> 2020-10-07T110955.302.html
+
+###
+
+POST http://list-me.test/api/signup
+Content-Type: application/json
+
+{
+    "telephone":"22222222222",
+    "street": "Bla bla bla",
+    "state": "Kathmanu",
+    "email": "bastola.ravi@test.com",
+    "name": "Ravi Bastola",
+    "password": "ravi123",
+    "role": "Business Owner",
+    "password_confirmation": "ravi123",
+    "businessName": "Business One",
+    "city": "Bla bla bla ",
+    "zip": "44600"
+}
+
+<> 2020-10-07T110932.200.html
+
+###
+
+POST http://list-me.test/api/signup
+Content-Type: application/json
+
+{
+    "telephone":"22222222222",
+    "street": "Bla bla bla",
+    "state": "Kathmanu",
+    "email": "bastola.ravi@test.com",
+    "name": "Ravi Bastola",
+    "password": "ravi123",
+    "role": "Business Owner",
+    "password_confirmation": "ravi123",
+    "businessName": "Business One",
+    "city": "Bla bla bla ",
+    "zip": "44600"
+}
+
+<> 2020-10-07T110849.500.html
+
+###
+
+POST http://list-me.test/api/signup
+Content-Type: application/json
+
+{
+    "telephone":"22222222222",
+    "street": "Bla bla bla",
+    "state": "Kathmanu",
+    "email": "bastola.ravi@test.com",
+    "name": "Ravi Bastola",
+    "password": "ravi123",
+    "role": "Business Owner",
+    "password_confirmation": "ravi123",
+    "businessName": "Business One",
+    "city": "Bla bla bla ",
+    "zip": "44600"
+}
+
+<> 2020-10-07T110820.200.html
 
 ###
 

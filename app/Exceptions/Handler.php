@@ -3,6 +3,7 @@
 namespace App\Exceptions;
 
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Database\QueryException;
 
 class Handler extends ExceptionHandler
 {
@@ -12,7 +13,7 @@ class Handler extends ExceptionHandler
      * @var array
      */
     protected $dontReport = [
-        //
+        QueryException::class
     ];
 
     /**
@@ -32,6 +33,10 @@ class Handler extends ExceptionHandler
      */
     public function register()
     {
-        //
+        $this->reportable(function (QueryException $exception) {
+        	return response([
+        		'success' => false
+        	], 200);
+        })->stop();
     }
 }

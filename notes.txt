@@ -19,4 +19,57 @@ Product Search Alogarithm:
 	- If send to supplier is selected, search from the products of the particular supplier.
 	- Else search product from system.
 
+SignUp And Login Flow:
+	
+	- After Logging In
+		- If business owner
+			- Show Stores
+				- Able to add/edit/update stores
+				- Able to 
+			- Show User(employess) for the particular store/s of the business owner
+				- Able delete.
+				- Able to add and update permissions.
+
+		- Else Employee User
+			- Show all the active carts of the stores
+			- Show associated store in profile page
+
+
+	- Signup Flow:
+		After signing up, show sucess message and navigate to profile screen.
+		if errors promt the users within the domain of the field error.
+
+		In a later stage, use an OTP mechanism to signup. 
+
+Cart page:
+	If one store select one by default
+	else 
+		show in drop down
+
+Products:
+	Add Brand Information
+
+SMS:
+	Future releases will include sign up with apple/mobile.
+
+
+Flow:
+	presents login screen/ sign up screen based on choice
+	if signup is completed then login is needed.
+	if is alredy signed up, user will log in 
+	after logging present the dashboard
+	
+
+
+
+Login/SignUp->TabbbedScreen?
+TabbedScreen? -> login signup
+
+
+
+
+
+
+
+
 
