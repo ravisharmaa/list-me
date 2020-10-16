@@ -35,18 +35,7 @@ class ProductsController extends Controller
     public function store()
     {
         $product = Product::create([
-            'name' => \request('name'),
-            'flavour' => \request('flavour'),
-            'weight' => \request('weight'),
-            'unit' => \request('unit'),
-            'price' => \request('price'),
-            'minimum_order_quantity' => \request('minimum_order_quantity'),
-            'in_stock' => \request('in_stock'),
-            'is_new' => \request('is_new'),
-            'offer_price' => \request('offer_price'),
-            'offer_label' => \request('offer_label'),
-            'offer_valid_till' => \request('offer_valid_till'),
-            'category_id' => \request('category_id')
+            request()->all()
         ]);
 
          return response([$product], 200);

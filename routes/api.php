@@ -77,10 +77,6 @@ Route::get('stores',[StoresController::class, 'index']);
 //GET http://list-me.test/api/cart/1
 Route::get('cart/{user}', [CartController::class, 'index']);
 
-
-
-
-
-
-
+//POST http://list-me.test/api/cart/1/create
+Route::post('cart/{user}/create', [CartController::class, 'store']);
 

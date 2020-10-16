@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Store;
+use App\Models\Supplier;
 use App\Models\User;
 use Illuminate\Http\Request;
 
@@ -37,9 +39,23 @@ class CartController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(User $user, Request $request)
     {
-        //
+        $store = Store::whereName(request('storeName'))->first();
+
+        $supplier = Supplier::whereName(request('supplierName'))->first();
+
+        $user->cart()->create([
+            'name' => request('name'),
+            'store_id' => $store->id,
+            'supplier_id' => $supplier->id,
+            'completed_at' => request('completed_at'),
+            'user_id' => 1
+        ]);
+
+        return response([
+            'success' => true
+        ], 200);
     }
 
     /**

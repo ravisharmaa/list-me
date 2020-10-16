@@ -15,6 +15,8 @@ class Cart extends Model
 
     public $with = ['cart_product'];
 
+    protected $guarded = [];
+
     protected $hidden = ['supplier', 'store','supplier_id','store_id','user_id'];
 
     protected $appends = ['supplierName','storeName'];
