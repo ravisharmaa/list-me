@@ -4,6 +4,7 @@ use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CartController;
 use App\Http\Controllers\CategoriesController;
 use App\Http\Controllers\CategoryProductsController;
+use App\Http\Controllers\ProductSearchController;
 use App\Http\Controllers\ProductsController;
 use App\Http\Controllers\StoresController;
 use App\Http\Controllers\SuppliersController;
@@ -79,4 +80,8 @@ Route::get('cart/{user}', [CartController::class, 'index']);
 
 //POST http://list-me.test/api/cart/1/create
 Route::post('cart/{user}/create', [CartController::class, 'store']);
+
+// GET http://list-me.test/api/products/search?name=testla
+
+Route::get('search/products', [ProductSearchController::class, 'index']);
 

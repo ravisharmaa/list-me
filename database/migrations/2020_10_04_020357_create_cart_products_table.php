@@ -29,7 +29,7 @@ class CreateCartProductsTable extends Migration
             
             
             $table->foreign('product_id')->references('id')
-                ->on('carts')
+                ->on('products')
                 ->onDeleteCascade()
                 ->onUpdateCascade();
 

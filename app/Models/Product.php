@@ -4,12 +4,17 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Laravel\Scout\Searchable;
 
 class Product extends Model
 {
-    use HasFactory;
+    use HasFactory, Searchable;
 
     protected $guarded = [];
+
+    protected $appends = ['category_name'];
+
+    protected $hidden = ['category'];
 
     protected $casts = [
     	'is_new' => 'boolean',
@@ -23,5 +28,13 @@ class Product extends Model
     public function category()
     {
         return $this->belongsTo(Category::class);
+    }
+
+    public function getCategoryNameAttribute() {
+        return $this->category->name;
+    }
+
+    public function suppliers() {
+        return $this->belongsToMany(Supplier::class);
     }
 }

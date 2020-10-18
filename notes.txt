@@ -65,6 +65,13 @@ Flow:
 Login/SignUp->TabbbedScreen?
 TabbedScreen? -> login signup
 
+Meta tags for categories, products:
+	
+
+While creating list, default supplier is set to all.
+	
+	
+
 
 
 

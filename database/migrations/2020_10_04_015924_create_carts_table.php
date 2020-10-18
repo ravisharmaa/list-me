@@ -31,6 +31,7 @@ class CreateCartsTable extends Migration
                     ->onDeleteCascade()
                     ->onUpdateCascade();
 
+            // to which store shall I nominate the cart to.
             $table->unsignedBigInteger('store_id');
 
             $table->foreign('store_id')->references('id')->on('stores')

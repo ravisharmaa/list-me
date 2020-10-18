@@ -41,7 +41,7 @@ class Cart extends Model
     // supplier name
 
     public function getSupplierNameAttribute($value) {
-        return $this->supplier->name;
+        return $this->supplier->name ?? NULL;
     }
 
     public function store() {
