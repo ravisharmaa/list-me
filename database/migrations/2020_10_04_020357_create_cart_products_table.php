@@ -33,6 +33,7 @@ class CreateCartProductsTable extends Migration
                 ->onDeleteCascade()
                 ->onUpdateCascade();
 
+            $table->unsignedBigInteger('quantity')->default(1);
 
             $table->timestamps();
         });

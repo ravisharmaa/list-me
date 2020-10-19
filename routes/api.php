@@ -23,7 +23,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
+// Registration and Login Routes.
 Route::post('signup', [AuthController::class, 'signup']);
 Route::post('login', [AuthController::class, 'login']);
 
@@ -34,13 +34,11 @@ Route::get('categories', [CategoriesController::class, 'index']);
 Route::post('categories', [CategoriesController::class, 'store']);
 
 // gets a product of a single categorys
-
 // GET http://list-me.test/api/products/Chips
-
 Route::get('products/{category}', [CategoryProductsController::class, 'index']);
 
 //GET http://list-me.test/api/products
-
+// Gets the products.
 Route::get('products', [ProductsController::class, 'index']);
 
 // POST http://list-me.test/api/products/create
@@ -84,7 +82,12 @@ Route::post('cart/{user}/create', [CartController::class, 'store']);
 
 // GET http://list-me.test/api/products/search?name=testla
 
+// Searches the products aailable in the database.
 Route::get('search/products', [ProductSearchController::class, 'index']);
 
+// Gets the products/items available in the cart currently.
 Route::get('cart/{cart}/products',[CartProductsController::class, 'index']);
+
+// Saves the items in the cart.
+Route::post('cart/{cart}/product/create', [CartProductsController::class, 'store']);
 
