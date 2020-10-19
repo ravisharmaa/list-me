@@ -6,6 +6,7 @@ use App\Models\Store;
 use App\Models\Supplier;
 use App\Models\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class CartController extends Controller
 {
@@ -41,21 +42,24 @@ class CartController extends Controller
      */
     public function store(User $user, Request $request)
     {
-        $store = Store::whereName(request('storeName'))->first();
+        $store = Store::whereName(request('storeName'))
+        ->select('id')
+        ->first();
 
-        $supplier = Supplier::whereName(request('supplierName'))->first();
+        $supplier = Supplier::whereName(request('supplierName'))
+            ->select('id');
 
-        $user->cart()->create([
+        $product = $user->cart()->create([
             'name' => request('name'),
             'store_id' => $store->id,
-            'supplier_id' => $supplier->id,
+            'slug' => Str::slug(request('name'), '-'),
+            'supplier_id' => $supplier->first()->id ?? NULL,
             'completed_at' => request('completed_at'),
-            'user_id' => 1
         ]);
 
-        return response([
-            'success' => true
-        ], 200);
+        return response(
+            $product
+        , 200);
     }
 
     /**

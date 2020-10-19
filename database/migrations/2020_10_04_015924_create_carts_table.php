@@ -18,6 +18,8 @@ class CreateCartsTable extends Migration
 
             $table->string('name');
 
+            $table->string('slug');
+
             // to which supplier shall I send this cart
             $table->unsignedBigInteger('supplier_id')->nullable();
 

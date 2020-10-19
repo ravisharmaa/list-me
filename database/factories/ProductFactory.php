@@ -23,13 +23,13 @@ class ProductFactory extends Factory
     public function definition()
     {
         return [
-            'category_id' => Category::factory(),
-            'name' => $this->faker->name,
-            'flavour' => $this->faker->name,
-            'weight' => '12oz',
-            'unit' => '22',
-            'pack_size' => '123',
-            'is_new' => true
+            'category_id' => Category::all()->random()->id,
+            'name' => $this->faker->word,
+            'flavour' => $this->faker->word(3, false),
+            'weight' => $this->faker->numberBetween(0,100),
+            'unit' => $this->faker->numberBetween(0,100),
+            'pack_size' => $this->faker->numberBetween(0,100),
+            'is_new' => $this->faker->boolean(50)
         ];
     }
 }

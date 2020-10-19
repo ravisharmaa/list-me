@@ -13,13 +13,13 @@ class Cart extends Model
 {
     use HasFactory;
 
-    public $with = ['cart_product'];
+    //public $with = ['cart_product'];
 
     protected $guarded = [];
 
-    protected $hidden = ['supplier', 'store','supplier_id','store_id','user_id'];
+    protected $hidden = ['supplier', 'store','supplier_id','store_id','user_id','cart_product'];
 
-    protected $appends = ['supplierName','storeName'];
+    protected $appends = ['supplierName','storeName','product_count'];
 
     // user relationship
     public function user() {
@@ -50,6 +50,14 @@ class Cart extends Model
 
     public function getStoreNameAttribute() {
         return $this->store->name;   
+    }
+
+    public function getProductCountAttribute() {
+        return $this->cart_product->count();
+    }
+
+    public function getRouteKeyName() {
+        return 'slug';
     }
 
 }

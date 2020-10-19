@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\CartProductsController;
 use App\Http\Controllers\CategoriesController;
 use App\Http\Controllers\CategoryProductsController;
 use App\Http\Controllers\ProductSearchController;
@@ -84,4 +85,6 @@ Route::post('cart/{user}/create', [CartController::class, 'store']);
 // GET http://list-me.test/api/products/search?name=testla
 
 Route::get('search/products', [ProductSearchController::class, 'index']);
+
+Route::get('cart/{cart}/products',[CartProductsController::class, 'index']);
 

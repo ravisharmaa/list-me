@@ -21,8 +21,26 @@ class CategoryFactory extends Factory
      */
     public function definition()
     {
+        $categories = ['Meat',
+        'Chips','Beer','Cofeee','Wine','Fruit','Candy','Bakery',
+        'Salty','Lottery','Sweet','Water','Energy Drink',
+        'Cheese','Canned Food','Hot Food','Snacks','Soda',
+        'NewsPaper','Oils','Fountain','Dairy','Toys','Novelty','New','Medicine','Gas','Cleaning Supplies',
+        'Gifts','Ice'];
+
+        foreach ($categories as $category) {
+            // return [
+            //     'name' => $category,
+            // ];
+            Category::create([
+                'name' => $category
+            ]);
+        }
+
         return [
-            'name' => $this->faker->name,
+
         ];
+
+        
     }
 }
