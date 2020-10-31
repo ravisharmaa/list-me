@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Cart;
 use App\Models\Store;
 use App\Models\Supplier;
 use App\Models\User;
@@ -91,9 +92,13 @@ class CartController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Cart $cart, User $user)
     {
-        //
+        $user->cart()->whereSlug($cart->slug)->update([
+            'completed_at' => now()
+        ]);
+
+        return $user->cart()->get();
     }
 
     /**
@@ -102,8 +107,10 @@ class CartController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(Cart $cart, User $user)
     {
-        //
+        $user->cart()->whereSlug($cart->slug)->delete();
+
+        return $user->cart()->get();
     }
 }

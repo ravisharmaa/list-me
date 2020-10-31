@@ -77,8 +77,16 @@ Route::get('stores',[StoresController::class, 'index']);
 //GET http://list-me.test/api/cart/1
 Route::get('cart/{user}', [CartController::class, 'index']);
 
+// PUT http://list-me.text/api/cart/{cart}/1/update
+
+Route::put('cart/{cart}/{user}/update', [CartController::class, 'update']);
+
 //POST http://list-me.test/api/cart/1/create
 Route::post('cart/{user}/create', [CartController::class, 'store']);
+
+// Delete cart
+
+Route::delete('cart/{cart}/{user}/delete', [CartController::class, 'destroy']);
 
 // GET http://list-me.test/api/products/search?name=testla
 
@@ -87,6 +95,8 @@ Route::get('search/products', [ProductSearchController::class, 'index']);
 
 // Gets the products/items available in the cart currently.
 Route::get('cart/{cart}/products',[CartProductsController::class, 'index']);
+
+Route::delete('cart/{cart}/products/delete',[CartProductsController::class, 'destroy']);
 
 // Saves the items in the cart.
 Route::post('cart/{cart}/product/create', [CartProductsController::class, 'store']);

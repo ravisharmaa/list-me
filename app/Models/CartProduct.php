@@ -15,7 +15,7 @@ class CartProduct extends Model
 
     protected $appends = ['name','flavour','category_name', 'weight','unit','pack_size'];
 
-    protected $hidden = ['product','cart_id','product_id'];
+    protected $hidden = ['product','cart_id'];
 
     public function cart() {
     	return $this->belongsTo(Cart::class);

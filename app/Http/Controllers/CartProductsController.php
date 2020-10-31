@@ -24,7 +24,6 @@ class CartProductsController extends Controller
 
     	if ($cartProduct->exists() && request('added')) {
     		$cartProduct->first()->increment('quantity', 1);
-    		return $cartProduct;
     	}
 
     	if ($cartProduct->exists() && !request('added') && ($cartProduct->first()->quantity == 1)) {
@@ -43,5 +42,14 @@ class CartProductsController extends Controller
     	}
     			
     	return $cart->cart_product;
+    }
+
+    public function destroy (Cart $cart) {
+       
+        $cart->cart_product->map(function($product) {
+            return $product->delete();
+        });
+
+        return [];
     }
 }
